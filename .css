@@ -1,0 +1,237 @@
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* FUNDO */
+
+body{
+    background-color:#009C3B;
+}
+
+/* CABEÇALHO */
+
+header{
+    background:#FFDF00;
+
+    text-align:center;
+
+    padding:30px;
+
+    border-bottom:8px solid #002776;
+
+    box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
+
+header h1{
+    color:#002776;
+
+    font-size:3rem;
+
+    margin-bottom:10px;
+}
+
+header p{
+    color:#002776;
+
+    font-size:1.2rem;
+
+    font-weight:bold;
+}
+
+/* CAIXAS */
+
+.caixa{
+
+    width:90%;
+
+    margin:30px auto;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    border:5px solid #002776;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* TÍTULOS */
+
+.caixa h2{
+
+    text-align:center;
+
+    color:#002776;
+
+    margin-bottom:25px;
+
+    margin-top:30px;
+
+    font-size:2rem;
+}
+
+.caixa p{
+    line-height:1.6;
+}
+
+/* JOGADORES */
+
+.jogadores{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:25px;
+
+    margin-bottom:30px;
+}
+
+/* CARD */
+
+.jogador{
+
+    width:220px;
+
+    background:white;
+
+    border:5px solid #002776;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    text-align:center;
+
+    transition:0.3s;
+
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+.jogador:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* IMAGEM */
+
+.jogador img{
+
+    width:100%;
+
+    height:260px;
+
+    object-fit:cover;
+
+    background:#ddd;
+}
+
+/* NOME */
+
+.jogador p{
+
+    padding:15px;
+
+    color:#002776;
+
+    font-size:1.1rem;
+
+    font-weight:bold;
+}
+
+/* RODAPÉ */
+
+footer{
+
+    background:#002776;
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+    margin-top:40px;
+}
+
+/* RESPONSIVO */
+
+@media(max-width:768px){
+
+    header h1{
+        font-size:2rem;
+    }
+
+    .caixa{
+        width:95%;
+    }
+
+    .jogador{
+        width:90%;
+        max-width:300px;
+    }
+
+}
+header{
+    background: #ffdf00;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+
+.btn-copa{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    background: #009c3b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn-copas{
+    background:#002776;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:8px;
+    cursor:pointer;
+    margin-left:10px;
+}
+
+.copas{
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+}
+
+.titulo-copa{
+    border-left:5px solid gold;
+    padding-left:15px;
+    margin-bottom:15px;
+}
+.btn-titulos{
+    background:#002776;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:8px;
+    cursor:pointer;
+    margin-left:10px;
+    font-weight:bold;
+}
